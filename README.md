@@ -9,6 +9,7 @@ var defaults = Configuration{
 	DbUser: "db_user",
 	DbPassword: "db_pw",
 	DbName: "bd_name",
+	DbAddress: "db_address",
 	// PKG_NAME gives name of the package using the stucts
 	PkgName: "DbStructs",
 	// TAG_LABEL produces tags commonly used to match database field names with Go struct
@@ -22,6 +23,7 @@ Or by a JSON file using the json flag `struct-create --json=test.json`
 {
 	"db_user": "db_user",
 	"db_password": "db_pass",
+	"db_address": "db_address",
 	"db_name": "db_name",
 	"pkg_name": "JsonTest",
 	"tag_label": "db"
